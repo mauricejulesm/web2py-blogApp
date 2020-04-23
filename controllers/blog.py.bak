@@ -5,7 +5,7 @@ def display_form():
     form = SQLFORM(db.blog)
     if form.process().accepted:
         session.flash = 'Form accepted'
-        redirect(URL('Thanks'))
+        redirect(URL('thanks'))
     elif form.errors:
         response.flash = 'Your form has shit errors'
     else:
