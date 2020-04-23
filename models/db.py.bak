@@ -160,5 +160,5 @@ db.define_table('blog',
                 Field('blog_image',requires=IS_URL() ),
                 Field('blog_url',requires=IS_URL() ),
                 Field('blog_category', requires=IS_IN_SET(['News','Events'])),
-                Field('blog_date_posted',type='date', requires=IS_DATE())
+                Field('blog_date_posted',type='date' requires=IS_DATE())
                 )
