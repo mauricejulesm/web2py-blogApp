@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 # try something like
-def index(): return dict(message="hello from blog.py")
 
-def post():
-    form = SQLFORM(db.blog).process()
-    return locals()
-
-def view():
-    rows = db(db.blog).select(orderby=~db.blog.id)
+def display_form():
+    form = SQLFORM(db.blog)
+    if form.process().accepted:
+        session.flash = 'Form accepted'
+        redirect(URL('thanks'))
+    elif form.errors:
+        response.flash = 'Your form has shit errors'
+    else:
+        response.flash = 'You are new here, please fill out the damn form'
     return locals()

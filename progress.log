@@ -5,3 +5,12 @@
 [2020-04-23 22:09:37] CREATE blog.py: 0
 [2020-04-23 22:22:06] EDIT blog/controllers/blog.py: 6
 [2020-04-23 22:22:42] EDIT blog/controllers/blog.py: 0
+[2020-04-23 22:24:16] CREATE blog/post.html: 0
+[2020-04-23 22:37:32] EDIT blog/views/blog/post.html: 0
+[2020-04-23 23:08:00] EDIT blogs_app/controllers/blog.py: 3
+[2020-04-23 23:09:38] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-23 23:09:44] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-23 23:09:48] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-23 23:10:33] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-23 23:12:30] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-23 23:13:54] EDIT blogs_app/controllers/blog.py: 0
