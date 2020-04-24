@@ -20,3 +20,7 @@
 [2020-04-23 23:29:01] EDIT blogs_app/views/blog/update.html: 0
 [2020-04-23 23:31:21] CREATE blog_thanks.html: 0
 [2020-04-23 23:31:39] EDIT blogs_app/views/blog_thanks.html: 0
+[2020-04-24 00:13:16] EDIT blogs_app/controllers/blog.py: 0
+[2020-04-24 00:13:33] CREATE blog/view.html: 0
+[2020-04-24 00:13:55] EDIT blogs_app/views/blog/view.html: 13
+[2020-04-24 00:17:26] EDIT blogs_app/controllers/blog.py: 3
